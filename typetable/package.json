@@ -1,0 +1,55 @@
+{
+  "name": "@mcanaleta/typetable",
+  "author": "Marc Canaleta",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "React editable datatable component, designed with spreadsheet UX in mind",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcanaleta/typetable.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "keywords": [
+    "react",
+    "datatable",
+    "table",
+    "spreadsheet",
+    "editable",
+    "grid",
+    "datagrid"
+  ],
+  "dependencies": {
+    "styled-components": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/preset-typescript": "^7.23.2",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@testing-library/dom": "^9.3.3",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.7",
+    "@types/react": "^18.2.34",
+    "@types/react-dom": "^18.2.14",
+    "@types/styled-components": "^5.1.29",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "rollup": "^4.2.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
