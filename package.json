@@ -13,8 +13,7 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "rollup -c --bundleConfigAsCjs",
-    "alpha-version": "npm-version  --preid alpha"
+    "build": "rollup -c    # -c is just to use the config file"
   },
   "keywords": [
     "react",
@@ -34,6 +33,7 @@
     "@babel/preset-typescript": "^7.23.2",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.5",
     "@testing-library/dom": "^9.3.3",
     "@testing-library/jest-dom": "^6.1.4",
