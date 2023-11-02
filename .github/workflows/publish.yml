@@ -35,6 +35,6 @@ jobs:
           npm version $PACKAGE_VERSION --no-git-tag-version --allow-same-version
 
           # Publish the package
-          npm publish
+          npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
