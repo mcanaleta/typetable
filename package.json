@@ -2,18 +2,19 @@
   "name": "@mcanaleta/typetable",
   "author": "Marc Canaleta",
   "license": "ISC",
-  "version": "1.0.0",
+  "version": "0.0.3-0",
   "description": "React editable datatable component, designed with spreadsheet UX in mind",
-  "main": "dist/cjs/index.js",
+  "main": "dist/esm/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mcanaleta/typetable.git"
+    "url": "https://github.com/mcanaleta/typetable.git"
   },
   "scripts": {
     "test": "jest",
-    "build": "rollup -c --bundleConfigAsCjs"
+    "build": "rollup -c --bundleConfigAsCjs",
+    "alpha-version": "npm-version  --preid alpha"
   },
   "keywords": [
     "react",
