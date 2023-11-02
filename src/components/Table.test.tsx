@@ -2,7 +2,7 @@ import React from "react";
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 
-import Table from "./Table";
+import { Table } from "./Table";
 
 describe("Running Test for Table", () => {
   test("Table renders correctly", () => {
