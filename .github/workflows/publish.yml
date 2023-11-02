@@ -23,9 +23,9 @@ jobs:
 
       - name: Bump version and Publish to GitHub Packages
         run: |
-          # Generate a unique version number based on the current time or commit SHA.
-          # E.g., appending commit SHA to the version number:
-          PACKAGE_VERSION=$(node -p -e "require('./package.json').version")-alpha-${GITHUB_SHA:0:7}
+          # Generate a unique version number based on the current timestamp.
+          # E.g., 1.0.0-alpha.20230101.235959
+          PACKAGE_VERSION=$(node -p -e "require('./package.json').version")-alpha.$(date +%Y%m%d.%H%M%S)
           echo "New version: $PACKAGE_VERSION"
 
           # Update package.json with the new version
