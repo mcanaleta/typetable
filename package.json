@@ -27,6 +27,7 @@
     "datagrid"
   ],
   "dependencies": {
+    "@mcanaleta/fieldtypes": "^0.0.5-alpha.20231105.164446",
     "styled-components": "^6.1.0"
   },
   "devDependencies": {
@@ -40,7 +41,6 @@
     "@storybook/addon-essentials": "^7.5.2",
     "@storybook/addon-interactions": "^7.5.2",
     "@storybook/addon-links": "^7.5.2",
-    "@storybook/addon-onboarding": "^1.0.8",
     "@storybook/blocks": "^7.5.2",
     "@storybook/react": "^7.5.2",
     "@storybook/react-vite": "^7.5.2",

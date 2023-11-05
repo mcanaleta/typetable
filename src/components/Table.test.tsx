@@ -11,7 +11,7 @@ describe("Running Test for Table", () => {
       { id: 2, name: "Jane Doe" },
     ];
 
-    render(<Table data={data} />);
+    render(<Table data={data} columns={[{ name: "id", width: "50px" }]} />);
 
     expect(screen.getByText(/John Doe/i)).toBeInTheDocument();
     expect(screen.getByText(/Jane Doe/i)).toBeInTheDocument();
